@@ -43,6 +43,12 @@ class Cat implements Animal {
         return "mnau mnau";
     }
 }
+class Snake implements Animal {
+    public function makeSound(): string
+    {
+        return "pssssss";
+    }
+}
 
 
 $dog = new Dog();
